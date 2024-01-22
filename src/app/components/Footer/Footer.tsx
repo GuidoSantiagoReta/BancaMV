@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { socialNetworks } from './Footer.data';
 
@@ -17,7 +16,7 @@ export function Footer() {
           ))}
         </div>
    
-        <div className="items-center justify-center md:flex">
+        <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="my-3"> © 2024 BancaMV.</div> 
         </div>
       </div>
