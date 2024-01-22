@@ -1,0 +1,10 @@
+
+   
+
+   
+  @media only screen and (max-width: 600px) {
+    .smallScreenButton {
+        bottom: 10%; 
+        height: 20px;
+    }
+}
