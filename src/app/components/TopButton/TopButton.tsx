@@ -35,8 +35,8 @@ export function TopButton() {
     return (
         showButton && (
             <div className={`fixed bottom-4 right-4 w-50 h-50 z-[1] smallScreenButton`} onClick={scrollTop}>
-                <div className='p-4 m-4 bg-customGradient rounded-full'>
-                    <FaChevronUp className="cursor-pointer bg-transparent rounded-full " size={25}/>
+                <div className='p-4 m-4 bg-buttonGradient rounded-full'>
+                    <FaChevronUp className="cursor-pointer bg-transparent rounded-full transparentIcon" size={25}/>
                 </div>
             </div>
         )

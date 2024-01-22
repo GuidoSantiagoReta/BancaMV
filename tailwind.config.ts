@@ -18,6 +18,7 @@ const config: Config = {
       },
       backgroundImage: {
         customGradient: 'linear-gradient(90deg, rgba(132,101,201,1) 35%, rgba(127,169,185,1) 100%)',
+        buttonGradient: 'linear-gradient(90deg, rgba(132,101,201,0.5) 35%, rgba(127,169,185,0.5) 100%)',
         radialBlack:
           "linear-gradient(225.95deg, #ffffff 0%, #6d6d6d 0%, #11101d 91.61%)",
         blueRadial:
