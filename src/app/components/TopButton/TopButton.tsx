@@ -17,7 +17,7 @@ export function TopButton() {
         const totalHeight:number = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         const percentageScrolled:number= (scrollPosition / totalHeight) * 100;
 
-        if (percentageScrolled > 50) {
+        if (percentageScrolled > 10) {
             setShowButton(true);
         } else {
             setShowButton(false);
