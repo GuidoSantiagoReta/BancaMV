@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import Image  from 'next/image';
-import { HiOutlineMenuAlt2 } from "react-icons/hi";
+
 import { dataHeader } from "./Header.data";
 import { useState } from "react";
-
+import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { RiMenu2Line } from "react-icons/ri";
 
 
