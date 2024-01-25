@@ -19,8 +19,8 @@ export function Header(){
             <Image src="/assets/bancamv.png" alt="logobanco" width={200} height={40} priority/>
           </Link>
         {openMenu 
-        ? <RiMenu2Line className="block text-3xl md:hidden cursor-pointer" onClick={() => setOpenMenu(!openMenu)} /> 
-        : <HiOutlineMenuAlt2 className="block text-3xl md:hidden cursor-pointer" onClick={() => setOpenMenu(!openMenu)} />
+        ? <RiMenu2Line className="block text-3xl md:hidden cursor-pointer text-secondary" onClick={() => setOpenMenu(!openMenu)} /> 
+        : <HiOutlineMenuAlt2 className="block text-3xl md:hidden cursor-pointer text-secondary" onClick={() => setOpenMenu(!openMenu)} />
         }
           <div className={`flex flex-col items-center  ${openMenu ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
           <div className="flex flex-col p-4 mt-4 md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0">
